@@ -1,0 +1,46 @@
+html {
+	height: 100%; width:100%;margin: 0; padding: 0;
+}
+@font-face {
+	font-family: myfont; src: url("../fonts/LEELAWAD.TTF");
+}
+body {
+	height: 100%; width:100%;margin: 0; padding: 0; background: #ffffff; font:18px myfont; color: #fff;
+}
+#first_part {
+	height: 150px;  background: #f4ce01; 
+}
+#second_part {
+	height: 550px;  background: #28c7a9; 
+}
+
+.sizer {
+	width: 700px; margin: 0 auto;
+}
+
+.sizer h1 {
+	margin-top: 0px; padding-top: 35px; 
+}
+
+h1 {
+	font-size: 50px; font-weight: normal; text-align: center;
+}
+h2 {
+	font-size: 40px; font-weight: normal; text-align: center;
+}
+.container {
+	width:640px;margin: 0 auto;
+}
+.item {
+	width:160px; height:180px; float: left;
+}
+.container h2 {
+	margin-top: 0; padding-top: 20px;
+}
+.units {
+	font-size: 25px;
+}
+
+.timer {
+	width:150px; height:120px; border:2px solid #ffffff; border-radius: 5px; font-size: 90px;margin-top: 0; padding-top: 20px;
+}
